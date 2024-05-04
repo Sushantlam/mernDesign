@@ -20,7 +20,7 @@ const Navbar = () => {
          <div className=' flex justify-between items-center gap-[64px] text-black'>
 
         
-          <Link to='/'>  <img src={logo} className=' h-[32px] w-[128px] md:h-[40px] md:w-[160px]' alt="" /></Link>
+          <Link to='/'>  <img src={logo} className=' h-[32px] w-[128px] lg:h-[40px] lg:w-[160px]' alt="" /></Link>
           <ul className='hidden lg:flex lg:justify-between lg:items-center lg:gap-[32px]'>
     <li className='p-3'>
       <span className="font-inter font-semibold text-[15px]" style={{ lineHeight: '22px' }}>Home</span>
