@@ -14,13 +14,13 @@ const Navbar = () => {
     <>
       
         
-        <div className='w-full  bg-green-85bc22 '>
+        <div className='w-full  bg-hero-bg'>
           <div className='  flex justify-between items-center w-full h-[64px] p-[16px] md:justify-between md:items-center md:h-[86px] md:w-auto md:mx-auto md:px-4 md:text-white lg:justify-between lg:items-center lg:h-[86px] lg:max-w-[1280px] lg:mx-auto lg:px-[32px] '>
 
          <div className=' flex justify-between items-center gap-[64px] text-black'>
 
         
-          <Link to='/'>  <img src={logo} className=' h-[40px] w-[160px]' alt="" /></Link>
+          <Link to='/'>  <img src={logo} className=' h-[32px] w-[128px] md:h-[40px] md:w-[160px]' alt="" /></Link>
           <ul className='hidden lg:flex lg:justify-between lg:items-center lg:gap-[32px]'>
     <li className='p-3'>
       <span className="font-inter font-semibold text-[15px]" style={{ lineHeight: '22px' }}>Home</span>
@@ -59,7 +59,7 @@ const Navbar = () => {
             </div>
 
             <ul className={nav ? 'fixed left-0 top-0 w-[80%] pt-16 pl-10  z-50 h-full bg-green-85bc22 border-r border-r-gray-900 ease-in-out duration-100' : 'ease-in-out duration-100 fixed left-[-100%]'}>
-            <Link to='/'>   <img src={logo} className=' h-[40px] w-[160px]' alt="" /></Link>
+            <Link to='/'>   <img src={logo} className=' h-[32px] w-[128px]' alt="" /></Link>
             <li className='p-3'>Home</li>
          <li className='p-3'>Our Products</li>
             <li className='p-3'>Resources</li>
