@@ -28,7 +28,7 @@ const handleClick =async(e)=>{
  
  try {
   
-    const res = await axios.post('http://localhost:5000/email', credential)
+    const res = await axios.post('https://backend-1-i3uq.onrender.com/email', credential)
     console.log(res);
     if(res)
 {
